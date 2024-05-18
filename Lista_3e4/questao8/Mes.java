@@ -15,7 +15,7 @@ public enum Mes {
 
     private final String descricao;
 
-    private Mes(String descricao) {
+    Mes(String descricao) {
         this.descricao = descricao;
     }
 

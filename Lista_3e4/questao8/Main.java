@@ -1,6 +1,5 @@
 package Lista_3e4.questao8;
 
-
 import java.util.Scanner;
 
 public class Main {
@@ -29,73 +28,73 @@ public class Main {
                 System.out.println("Coloque a descrição do compromisso para Janeiro:");
                 String descricaoJaneiro = scanner.nextLine();
                 Agenda agendaJaneiro = new Agenda(Mes.JANEIRO, descricaoJaneiro);
-                System.out.println("Compromisso marcado para Janeiro: " + descricaoJaneiro);
+                System.out.println("Compromisso marcado para " + agendaJaneiro.getMes() + ": " + agendaJaneiro.getDescricao());
                 break;
             case "b":
                 System.out.println("Coloque a descrição do compromisso para Fevereiro:");
                 String descricaoFevereiro = scanner.nextLine();
                 Agenda agendaFevereiro = new Agenda(Mes.FEVEREIRO, descricaoFevereiro);
-                System.out.println("Compromisso marcado para Fevereiro: " + descricaoFevereiro);
+                System.out.println("Compromisso marcado para " + agendaFevereiro.getMes() + ": " + agendaFevereiro.getDescricao());
                 break;
             case "c":
                 System.out.println("Coloque a descrição do compromisso para Março:");
                 String descricaoMarco = scanner.nextLine();
                 Agenda agendaMarco = new Agenda(Mes.MARCO, descricaoMarco);
-                System.out.println("Compromisso marcado para Março: " + descricaoMarco);
+                System.out.println("Compromisso marcado para " + agendaMarco.getMes() + ": " + agendaMarco.getDescricao());
                 break;
             case "d":
                 System.out.println("Coloque a descrição do compromisso para Abril:");
                 String descricaoAbril = scanner.nextLine();
                 Agenda agendaAbril = new Agenda(Mes.ABRIL, descricaoAbril);
-                System.out.println("Compromisso marcado para Abril: " + descricaoAbril);
+                System.out.println("Compromisso marcado para " + agendaAbril.getMes() + ": " + agendaAbril.getDescricao());
                 break;
             case "e":
                 System.out.println("Coloque a descrição do compromisso para Maio:");
                 String descricaoMaio = scanner.nextLine();
                 Agenda agendaMaio = new Agenda(Mes.MAIO, descricaoMaio);
-                System.out.println("Compromisso marcado para Maio: " + descricaoMaio);
+                System.out.println("Compromisso marcado para " + agendaMaio.getMes() + ": " + agendaMaio.getDescricao());
                 break;
             case "f":
                 System.out.println("Coloque a descrição do compromisso para Junho:");
                 String descricaoJunho = scanner.nextLine();
                 Agenda agendaJunho = new Agenda(Mes.JUNHO, descricaoJunho);
-                System.out.println("Compromisso marcado para Junho: " + descricaoJunho);
+                System.out.println("Compromisso marcado para " + agendaJunho.getMes() + ": " + agendaJunho.getDescricao());
                 break;
             case "g":
                 System.out.println("Coloque a descrição do compromisso para Julho:");
                 String descricaoJulho = scanner.nextLine();
                 Agenda agendaJulho = new Agenda(Mes.JULHO, descricaoJulho);
-                System.out.println("Compromisso marcado para Julho: " + descricaoJulho);
+                System.out.println("Compromisso marcado para " + agendaJulho.getMes() + ": " + agendaJulho.getDescricao());
                 break;
             case "h":
                 System.out.println("Coloque a descrição do compromisso para Agosto:");
                 String descricaoAgosto = scanner.nextLine();
                 Agenda agendaAgosto = new Agenda(Mes.AGOSTO, descricaoAgosto);
-                System.out.println("Compromisso marcado para Agosto: " + descricaoAgosto);
+                System.out.println("Compromisso marcado para " + agendaAgosto.getMes() + ": " + agendaAgosto.getDescricao());
                 break;
             case "i":
                 System.out.println("Coloque a descrição do compromisso para Setembro:");
                 String descricaoSetembro = scanner.nextLine();
                 Agenda agendaSetembro = new Agenda(Mes.SETEMBRO, descricaoSetembro);
-                System.out.println("Compromisso marcado para Setembro: " + descricaoSetembro);
+                System.out.println("Compromisso marcado para " + agendaSetembro.getMes() + ": " + agendaSetembro.getDescricao());
                 break;
             case "j":
                 System.out.println("Coloque a descrição do compromisso para Outubro:");
                 String descricaoOutubro = scanner.nextLine();
                 Agenda agendaOutubro = new Agenda(Mes.OUTUBRO, descricaoOutubro);
-                System.out.println("Compromisso marcado para Outubro: " + descricaoOutubro);
+                System.out.println("Compromisso marcado para " + agendaOutubro.getMes() + ": " + agendaOutubro.getDescricao());
                 break;
             case "k":
                 System.out.println("Coloque a descrição do compromisso para Novembro:");
                 String descricaoNovembro = scanner.nextLine();
                 Agenda agendaNovembro = new Agenda(Mes.NOVEMBRO, descricaoNovembro);
-                System.out.println("Compromisso marcado para Novembro: " + descricaoNovembro);
+                System.out.println("Compromisso marcado para " + agendaNovembro.getMes() + ": " + agendaNovembro.getDescricao());
                 break;
             case "l":
                 System.out.println("Coloque a descrição do compromisso para Dezembro:");
                 String descricaoDezembro = scanner.nextLine();
                 Agenda agendaDezembro = new Agenda(Mes.DEZEMBRO, descricaoDezembro);
-                System.out.println("Compromisso marcado para Dezembro: " + descricaoDezembro);
+                System.out.println("Compromisso marcado para " + agendaDezembro.getMes() + ": " + agendaDezembro.getDescricao());
                 break;
         }
     }
